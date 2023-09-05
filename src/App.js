@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Navbar from './components/NavBar';
+import HomePage from './components/HomePage';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Career-Facet Home Page</h1>
-    </div>
+    <React.Fragment>
+      <Navbar/>
+      <main className='container'>
+        <HomePage/>
+      </main>
+      </React.Fragment>
+    
   );
 }
 
