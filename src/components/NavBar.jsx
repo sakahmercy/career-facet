@@ -1,29 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
+import "../styles/navBar.css"
 import {NavLink, Link} from 'react-router-dom'
-import logo from "./assets/logo.png"
-import message from "./assets/message.png"
-import notification from "./assets/notification.png"
-import profile from "./assets/profile.png"
+import Logo from "./assets/logo.png"
+import MessageIcon from "./assets/message.png"
+import NotificationIcon from "./assets/notification.png"
+import ProfileIcon from "./assets/profile.png"
 
-class Navbar extends Component {
-  render() {
-    return (
-      <nav className="navbar navbar-expand-lg bg-body-primary">
+
+
+const Navbar = () => {
+  return (  
+    <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="#">
-          <img src={logo} alt="" style={{ width: "200px" }} />
+          <img src={Logo} alt="" className="logo" />
           </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
                 <NavLink className="nav-link active" aria-current="page" to="#">
@@ -41,17 +32,17 @@ class Navbar extends Component {
             </ul>
           </div>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav justify-content-end">
                 <NavLink className="nav-link active" aria-current="page" to="#">
-                <img src={message} alt="" style={{ width: "20px" }} />
+                <img src={MessageIcon} alt=""className="navIcon" />
                 </NavLink>
                 <NavLink className="nav-link" to="/jobs">
-                <img src={notification} alt="" style={{ width: "20px" }} />
+                <img src={NotificationIcon} alt=""className="navIcon"  />
                 </NavLink>
                 <div className="btn-group">
                 <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                <img src={profile} alt="" style={{ width: "20px" }} />
+                <img src={ProfileIcon} alt="" className="navIcon" />
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><Link class="dropdown-item" href="#">Action</Link></li>
                 <li><Link class="dropdown-item" href="#">Another action</Link></li>
@@ -67,8 +58,7 @@ class Navbar extends Component {
           </div>
         </div>
       </nav>
-    );
-  }
+  );
 }
-
+ 
 export default Navbar;

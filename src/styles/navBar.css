@@ -1,0 +1,15 @@
+
+  /* body {
+    background-image: url(../components/assets/imagee.jpg);
+  } */
+ 
+.logo {
+    width: 200px;
+  }
+  .navIcon {
+    width: 20px;
+  }
+
+  #jobseeker {
+    display:block;
+  }
