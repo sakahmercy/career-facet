@@ -1,19 +1,19 @@
 import React from "react";
-import "../styles/navBar.css"
 import {NavLink, Link} from 'react-router-dom'
-import Logo from "./assets/logo.png"
-import MessageIcon from "./assets/message.png"
-import NotificationIcon from "./assets/notification.png"
-import ProfileIcon from "./assets/profile.png"
+import {FaBell} from "react-icons/fa"
+import { FaComment } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
+import Logo from "../../assets/logo2.png"
+import "../NavBar/navBar.css"
 
 
 
 const Navbar = () => {
   return (  
-    <nav className="navbar navbar-expand-lg bg-dark">
+    <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="#">
-          <img src={Logo} alt="" className="logo" />
+          <img src={Logo} alt="" className="logo2" />
           </Link>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
@@ -31,24 +31,17 @@ const Navbar = () => {
                 </NavLink>
             </ul>
           </div>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="navbar">
             <ul className="navbar-nav justify-content-end">
                 <NavLink className="nav-link active" aria-current="page" to="#">
-                <img src={MessageIcon} alt=""className="navIcon" />
+                <FaUser/>
                 </NavLink>
                 <NavLink className="nav-link" to="/jobs">
-                <img src={NotificationIcon} alt=""className="navIcon"  />
+                  <FaBell/>
                 </NavLink>
                 <div className="btn-group">
-                <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                <img src={ProfileIcon} alt="" className="navIcon" />
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link class="dropdown-item" href="#">Action</Link></li>
-                <li><Link class="dropdown-item" href="#">Another action</Link></li>
-                <li><Link class="dropdown-item" href="#">Something else here</Link></li>
-                <li><Link class="dropdown-item" href="#">Separated link</Link></li>
-              </ul>
+                <NavLink className="nav-link" to="#">
+                <FaComment/>
                 </NavLink>
                 </div>
                 <NavLink className="nav-link" to="salaries">

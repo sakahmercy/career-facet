@@ -1,29 +1,27 @@
 import React from 'react';
-import SearchIcon from "./assets/search.png";
-import LocationIcon from "./assets/location.jpg";
-import "bootstrap/dist/css/bootstrap.css";
-import '../styles/home.css'
-import "../index.css";
+import {FaMapMarkerAlt} from 'react-icons/fa'
+import {FaSistrix} from 'react-icons/fa'
+import '../Home/home.css'
+
 
 
 
 const HomePage = () => {
   return ( 
-    <React.Fragment>
-        <div className="container text-center">
+        <div className="homeContainer">
           <h1>Welcome to Career-Facet</h1>
           <h2>Experience the new way to work.</h2>
           <h3>See jobs we have picked for you.</h3>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" id='searchBar'>
             <div className="col-md-6">
               <div className="input-group mb-3">
                 <div className="input-group-prepend">
                   <span className="input-group-text">
-                    <img src={LocationIcon} alt="Location" className='searchIcon' style={{ width: "25px", height: "25px" }} />
+                   <FaMapMarkerAlt/>
                   </span>
                 </div>
-                <input type="text" id='mySearch' className="form-control" placeholder="Where" title='type in a category' />
+                <input type="text" id='mySearch' className="form-control" placeholder="Where, job title, or company" title='type in a category' />
                 <div className="input-group-append">
                   <button className="btn btn-primary" type="button">Search</button>
                 </div>
@@ -33,32 +31,32 @@ const HomePage = () => {
               <div className="input-group mb-3">
                 <div className='input-group-prepend'>
                   <span className='input-group-text'>
-                    <img src={SearchIcon} alt="Search" className='searchIcon' style={{ width: "25px", height: "30px" }}/>
+                  <FaSistrix/>
                   </span>
                 </div>
-                <input type="text" className="form-control" placeholder="What"  />
+                <input type="text" className="form-control" placeholder="What, city, state, or remote"  />
                 <div className="input-group-append">
                   <button className="btn btn-primary" type="button">Search</button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
+          <div className="row" id='userSection'>
             <div className="col-md-12">
               <div className="input-groupType-mb-3">
-                <button type='button' className='btn btn-link'>Job seeker get started</button>
+                <button type='button' className='btn btn-link' id='option'>Job seeker get started</button>
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
+          <div className="row"  id='userSection'>
             <div className="col-md-12">
               <div className="input-groupType-mb-3">
-                <button type='button' className='btn btn-link'>Employer post a job</button>
+                <button type='button' className='btn btn-link' id='option'>Employer post a job</button>
               </div>
             </div>
           </div>
         </div>
-      </React.Fragment>
+        
    );
 }
  

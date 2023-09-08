@@ -3,13 +3,18 @@
     background-image: url(../components/assets/imagee.jpg);
   } */
  
-.logo {
+.logo2 {
     width: 200px;
   }
-  .navIcon {
-    width: 20px;
-  }
+
 
   #jobseeker {
     display:block;
+  }
+
+  .navbar {
+    height: 50px;
+  }
+  .nav-link {
+    color: black;
   }
