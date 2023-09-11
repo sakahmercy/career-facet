@@ -3,7 +3,7 @@ import {NavLink, Link} from 'react-router-dom'
 import {FaBell} from "react-icons/fa"
 import { FaComment } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
-import Logo from "../../assets/logo2.png"
+import Logo from "../../assets/career_facet_logo.png"
 import "../NavBar/navBar.css"
 
 
@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="col-12">
       <div className="container-fluid">
           <Link className="navbar-brand" to="#">
-          <img src={Logo} alt="" className="logo2" />
+          <img src={Logo} alt="" className="nav_bar_logo" />
           </Link>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </NavLink>
             </ul>
           </div>
-          <div className="navbar">
+          <div className="navbar"> 
             <ul className="navbar-nav justify-content-end">
                 <NavLink className="nav-link active" aria-current="page" to="#">
                 <FaUser/>
