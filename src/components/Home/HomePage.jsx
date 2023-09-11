@@ -3,6 +3,8 @@ import {FaMapMarkerAlt} from 'react-icons/fa'
 import {FaSistrix} from 'react-icons/fa'
 import '../Home/home.css'
 import Navbar from '../NavBar/NavBar';
+import Footer from '../Footer/footer';
+
 
 
 
@@ -56,59 +58,14 @@ const HomePage = () => {
               <div className="input-groupType-mb-3">
                 <button type='button' className='btn btn-link' id='option'>Employer post a job</button>
               </div>
-              {/* <p>Career-facet helps people get Jobs</p> */}
             </div>
           </div>
-          {/* <Footer/> */}
+          <Footer/>
         </div>
-        {/* <footer className="mt-5">
-        <div className="container mt-5">
-            <div className="row">
-                <div className="col-sm-3">
-                    <h3>General</h3>
-                    <p>Sign Up</p>
-                    <p>Help Center</p>
-                    <p>About Us</p>
-                    <p>Careers</p>
-                    <p>Developers</p>
-                </div>
-                <div className="col-sm-3">
-                    <h3>Brouse Career-Facet</h3>
-                    <p>Jobs</p>
-                    <p>Salaries</p>
-                    <p>Company Reviews</p>
-                    <p>Services</p>
-                </div>
-                <div className="col-sm-3">
-                    <h3>Business solutions</h3>
-                    <p>Talent</p>
-                    <p>Marketing</p>
-                    <p>Sales</p>
-                </div>
-                <div className="col sm-3">
-                    <h3>Directories</h3>
-                    <h1>Members</h1>
-                    <p>Jobs</p>
-                    <p>Posts</p>
-                    <p>News</p>
-                    <p>People search</p>
-                </div>
-                <div className="col sm-3">
-                    <h3>Apps</h3>
-                    <p>©2023 Career-Facet</p>
-                    <p>Accessibility at Career-facet</p>
-                    <p>Your privacy choices</p>
-                    <FaGooglePlay/>
-                    <FaGoogle/>
-                </div>
-            </div>
-        </div>
-        </footer> */}
-        
-        </React.Fragment>
-        
+
+        </React.Fragment>  
    );
 }
-
  
+
 export default HomePage;

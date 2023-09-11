@@ -1,7 +1,6 @@
 .homeContainer{
-    background-image: url(../../assets/my-home-image.png);
     background-size: 100% 100%;
-    position:fixed;
+    position:absolute;
     left: 0;
     min-height: 100%;
     min-width: 100%;
@@ -13,28 +12,28 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgba(244, 245, 248, 0.938);
+    color: rgba(13, 14, 17, 0.938);
     font-size: 3rem;
   }
    h2 {
     position: absolute;
-    bottom: 10%;
-    left: 10%;
-    font-size: xx-large;
-    color: aliceblue;
-  }
-
-  .h3 {
-    position: absolute;
     bottom: 20%;
     left: 10%;
+    font-size: xx-large;
+    color: rgb(22, 24, 26);
+  }
+
+  h3 {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
     font-size: x-large;
-    color: white;
+    color: rgb(31, 28, 28);
   }
   #option {
-    font-size:larger;
+    font-size:large;
     font-weight: 500;
-    color: white;
+    color: rgb(82, 168, 248);
   }
  
   #searchIcon {
