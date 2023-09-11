@@ -5,4 +5,5 @@ const Salaries = () => {
     return (  null);
 }
 
+
 export default Salaries;

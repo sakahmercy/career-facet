@@ -10,8 +10,9 @@ import "../NavBar/navBar.css"
 
 const Navbar = () => {
   return (  
-    <nav className="navbar navbar-expand-lg bg-light">
-        <div className="container-fluid">
+    <nav className=" navbar navbar-expand-lg bg-light">
+      <div className="col-12">
+      <div className="container-fluid">
           <Link className="navbar-brand" to="#">
           <img src={Logo} alt="" className="logo2" />
           </Link>
@@ -50,8 +51,11 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+      </div>
+        
       </nav>
   );
 }
+
  
 export default Navbar;
