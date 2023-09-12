@@ -4,6 +4,7 @@ import {FaSistrix} from 'react-icons/fa'
 import '../Home/home.css'
 import Navbar from '../NavBar/NavBar';
 import Footer from '../Footer/footer';
+import Jobs from './../Jobs/Jobs';
 
 
 
@@ -14,9 +15,10 @@ const HomePage = () => {
     <React.Fragment>
         <div className="homeContainer">
           <Navbar/>
+          <hr />
           <h1>Welcome to Career-Facet</h1>
-          <h2>Experience the new way to work.</h2>
-          <h3>See jobs we have picked for you.</h3>
+          {/* <h2>Experience the new way to work.</h2>
+          <h3>See jobs we have picked for you.</h3> */}
 
           <div className="row justify-content-center" id='searchBar'>
             <div className="col-md-6">
@@ -60,8 +62,11 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <Footer/>
+          <h3>Career_Facet help people get Jobs</h3>
         </div>
+
+       <hr/>
+          <Footer/>
 
         </React.Fragment>  
    );

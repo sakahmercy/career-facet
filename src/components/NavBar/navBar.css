@@ -18,3 +18,8 @@
   .nav-link {
     color: black;
   }
+  .nav-separator {
+    width: 1px;
+    height: 30px; /* Adjust the height as needed */
+    background-color: #6b5555;
+  }

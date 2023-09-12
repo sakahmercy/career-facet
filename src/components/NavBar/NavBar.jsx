@@ -10,7 +10,7 @@ import "../NavBar/navBar.css"
 
 const Navbar = () => {
   return (  
-    <nav className=" navbar navbar-expand-lg bg-light">
+    <nav className=" navbar navbar-expand-lg bg-white">
       <div className="col-12">
       <div className="container-fluid">
           <Link className="navbar-brand" to="#">
@@ -45,6 +45,9 @@ const Navbar = () => {
                 <FaComment/>
                 </NavLink>
                 </div>
+                <li className="nav-item">
+                <div className="nav-separator"></div>
+              </li>
                 <NavLink className="nav-link" to="salaries">
                  Employer/Job seeker
                 </NavLink>

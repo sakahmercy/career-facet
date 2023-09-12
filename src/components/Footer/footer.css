@@ -10,4 +10,8 @@
   p {
     color: black;
   }
+  h3 {
+    bottom: 100%;
+    font-size: larger;
+  }
   

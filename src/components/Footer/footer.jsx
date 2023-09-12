@@ -6,7 +6,9 @@ import { FaGoogle } from 'react-icons/fa';
 
 const Footer = () => {
     return ( 
+        
         <footer className="footer">
+            <hr/>
         <div className="container mt-5">
             <div className="row">
                 <div className="col-sm-3">
@@ -28,6 +30,8 @@ const Footer = () => {
                     <h3>Business solutions</h3>
                     <p>Talent</p>
                     <p>Marketing</p>
+                    <FaGoogle/>
+                    <FaGooglePlay/>
                 </div>
                 <div className="col sm-3">
                     <h3>Directories</h3>
@@ -39,9 +43,7 @@ const Footer = () => {
                     <h3>Apps</h3>
                     <p>©2023 Career-Facet</p>
                     <p>Accessibility at Career-facet</p>
-                    <p>Your privacy choices</p>
-                    <FaGooglePlay/>
-                    <FaGoogle/>
+                    <p>Your privacy</p>
                 </div>
             </div>
         </div>
