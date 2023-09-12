@@ -1,18 +1,21 @@
-import React, { Component } from 'react';
-import Navbar from './components/NavBar';
-import HomePage from './components/HomePage';
+import React from 'react';
+import HomePage from './components/Home/HomePage';
 import './App.css';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
+    
     <React.Fragment>
-      <Navbar/>
+      
       <main className='container'>
         <HomePage/>
       </main>
+      {/* <Footer/> */}
       </React.Fragment>
     
   );
 }
+
 
 export default App;

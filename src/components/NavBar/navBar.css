@@ -1,0 +1,25 @@
+
+  /* body {
+    background-image: url(../components/assets/imagee.jpg);
+  } */
+ 
+.logo2 {
+    width: 200px;
+  }
+
+
+  #jobseeker {
+    display:block;
+  }
+
+  .navbar {
+    height: 50px;
+  }
+  .nav-link {
+    color: black;
+  }
+  .nav-separator {
+    width: 1px;
+    height: 30px; /* Adjust the height as needed */
+    background-color: #6b5555;
+  }
