@@ -5,6 +5,7 @@ import { FaComment } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import Logo from "../../assets/career_facet_logo.png"
 import "../NavBar/navBar.css"
+import DropDownItem from "./DropDownItem";
 
 
 
@@ -34,9 +35,7 @@ const Navbar = () => {
           </div>
           <div className="navbar"> 
             <ul className="navbar-nav justify-content-end">
-                <NavLink className="nav-link active" aria-current="page" to="#">
-                <FaUser/>
-                </NavLink>
+                <DropDownItem/>
                 <NavLink className="nav-link" to="/jobs">
                   <FaBell/>
                 </NavLink>
