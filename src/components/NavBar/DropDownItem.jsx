@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-import { FaCompass, FaIdBadge, FaUserCog, FaBookmark } from 'react-icons/fa';
-import { FaUser, FaRegCommentDots, FaCog, FaQuestionCircle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { FaCompass, FaIdBadge, FaUserCog, FaBookmark } from "react-icons/fa";
+import { FaUser, FaRegCommentDots, FaCog, FaQuestionCircle,} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-
-const DropDownItem = () => {
+const ProfileSettingsDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -14,8 +13,8 @@ const DropDownItem = () => {
   return (
     <div className="dropdown">
       <button onClick={toggleDropdown} className="dropbtn">
-      <span className="icon-wrapper">
-        <FaUser className="custom-icon" />
+        <span className="icon-wrapper">
+          <FaUser className="custom-icon" />
         </span>
       </button>
       {isOpen && (
@@ -42,6 +41,11 @@ const DropDownItem = () => {
             <FaQuestionCircle /> Help center
           </Link>
           <hr />
+          <h9>
+            ©2023Career-facet-cookies-privacy-Terms Accessibility at
+            career-facet
+          </h9>
+          <hr />
           <Link to="#logout">Logout</Link>
         </div>
       )}
@@ -50,4 +54,5 @@ const DropDownItem = () => {
 };
 
 
-export default DropDownItem;
+
+export default ProfileSettingsDropdown;

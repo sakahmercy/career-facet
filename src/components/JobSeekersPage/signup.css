@@ -1,0 +1,30 @@
+.signUpContainer {
+  background-image: url("../../assets/signUp_background_iamge.webp");
+  background-size: cover;
+  position:absolute;
+  min-height: 100%;
+  min-width: 100%;
+  background-position: center;
+
+}
+
+.signUpLogo {
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+}
+
+.signUpForm {
+    width: 400px;
+    border: 2px solid;
+    padding: 20px;
+    background-color: rgba(245, 250, 248, 0.692);
+    border-radius: 30px;
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 90px;
+
+}

@@ -43,6 +43,9 @@ const Navbar = () => {
                 <NavLink className="nav-link" to="#">
                 <FaComment/>
                 </NavLink>
+                <NavLink className="nav-link" to="CreateAccount">
+                Sign Up
+                </NavLink>
                 </div>
                 <li className="nav-item">
                 <div className="nav-separator"></div>

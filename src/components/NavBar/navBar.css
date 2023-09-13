@@ -10,7 +10,8 @@
     height: 50px;
   }
   .nav-link {
-    color: black;
+    color: rgb(9, 10, 10);
+    
   }
   .nav-separator {
     width: 1px;
@@ -55,10 +56,10 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #edf5f4;
-    min-width: 160px;
+    background-color: #ebf8f7;
+    min-width: 280px;
     box-shadow: 0px 0px 0px 0px rgba(241, 244, 245, 0.952);
-    z-index: 1;
+    
   }
   
   .dropdown-content a {
