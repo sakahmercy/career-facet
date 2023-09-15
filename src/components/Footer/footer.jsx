@@ -2,7 +2,7 @@ import React from "react";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import "../Footer/footer.css";
+import "./footer.css";
 
 const Footer = () => {
   return (

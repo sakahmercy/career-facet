@@ -1,14 +1,15 @@
-import React from 'react';
+import React from "react";
 import logo from "../../assets/career_facet_logo.png";
 import { Link } from "react-router-dom";
-import "./signup.css"
+import "../JobSeekersPage/form.css"
 
-const SignUp = () => {
-  return ( 
-    <div className="Container sign-up-bg">
+
+const JobSeekersForm = () => {
+  return (
+    <div className="jobseekersform-container container">
       <div className=" row">
         <div className="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
-          <form className="border custom-form-content">
+          <form className="jobseekersform-content">
             <div className="text-center">
               <img
                 className="signuplogo image-fluid"
@@ -18,7 +19,6 @@ const SignUp = () => {
                 height="100"
               />
             </div>
-            <h2 class="text-center mb-4">Sign Up</h2>
             <div class="form-group">
               <label for="username">
                 <span className="font-weight-bold-sign-up">Username</span>
@@ -63,21 +63,29 @@ const SignUp = () => {
                 placeholder="Enter phone number"
               />
             </div>
+            <div class="form-group">
+              <label for="location">
+                <span className="font-weight-bold-sign-up">Location</span>
+              </label>
+              <input
+                type="location"
+                class="form-control"
+                id="location"
+                placeholder="Enter location"
+              />
+            </div>
           <Link to = '/'>
           <button type="submit" className="btn btn-primary">
-            SignUp
+            Create account
           </button>
-          </Link>
-          <Link to = '/Job-seekers-login'>
-            <button className="signUpButton">I have an account</button>
           </Link>
         </form>
         </div>
       </div>
     </div>
-   );
-}
- 
+  );
+};
 
 
-export default SignUp;
+
+export default JobSeekersForm;
