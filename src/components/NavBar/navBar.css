@@ -22,4 +22,89 @@
     width: 1px;
     height: 30px; /* Adjust the height as needed */
     background-color: #6b5555;
+<<<<<<< Updated upstream
   }
+=======
+  }
+
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #dbecfc;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background:none;
+    border: none;
+    padding: 0;
+    display: flex;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+
+  .custom-icon {
+    padding-top: 1%;
+    padding-bottom: 1px;
+    color: rgb(19, 17, 17);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebf8f7;
+    min-width: 280px;
+    box-shadow: 0px 0px 0px 0px rgba(241, 244, 245, 0.952);
+    
+  }
+  
+  .dropdown-content a {
+    color: rgb(8, 8, 8);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #d0f3f3;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropbtn:focus {
+    outline: none;
+  }
+
+  /* navBar.css */
+/* navBar.css */
+.navbar-toggler {
+  border: none; /* Remove borders */
+  background-color: transparent; /* Set background color to transparent */
+  outline: none; /* Remove outline when button is focused */
+  padding: 0; /* Remove padding */
+  margin-right: 10px; /* Add margin to separate from other elements */
+}
+
+/* Example styles for the expanded navbar */
+.navbar-collapse.show {
+  background-color: #f2f5f8; /* Set background color for the expanded navbar */
+  border-radius: 10px; /* Add border radius to the expanded navbar */
+  padding: 10px; /* Add padding to the expanded navbar */
+  padding-left: 80%;
+}
+  
+>>>>>>> Stashed changes

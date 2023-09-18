@@ -1,0 +1,27 @@
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .card {
+    width: 350px;
+    height: 140px;
+    margin: 20px;
+    border: 1px solid #33f16c;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: none;
+  }
+  
+  .card-text {
+    margin-top: 10px;
+  }
+  
+  .btn {
+    margin-top: 0px;
+    color: rgb(8, 8, 8);
+  }

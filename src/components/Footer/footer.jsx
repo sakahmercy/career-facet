@@ -52,4 +52,9 @@ const Footer = () => {
 }
  
 
+<<<<<<< Updated upstream
 export default Footer;
+=======
+
+export default Footer;
+>>>>>>> Stashed changes
