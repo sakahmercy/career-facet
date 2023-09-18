@@ -1,13 +1,10 @@
 import React from 'react';
 import {FaMapMarkerAlt} from 'react-icons/fa'
 import {FaSistrix} from 'react-icons/fa'
-import '../Home/home.css'
 import Navbar from '../NavBar/NavBar';
-import Footer from '../Footer/footer';
-import Jobs from './../Jobs/Jobs';
-
-
-
+import Footer from '../Footer/Footer';
+import '../Home/home.css'
+import { Link } from 'react-router-dom';
 
 
 const HomePage = () => {
@@ -16,10 +13,7 @@ const HomePage = () => {
         <div className="homeContainer">
           <Navbar/>
           <hr />
-          <h1>Welcome to Career-Facet</h1>
-          {/* <h2>Experience the new way to work.</h2>
-          <h3>See jobs we have picked for you.</h3> */}
-
+          <h1 className='welcome'>Welcome to Career-Facet</h1>
           <div className="row justify-content-center" id='searchBar'>
             <div className="col-md-6">
               <div className="input-group mb-3">
@@ -51,7 +45,9 @@ const HomePage = () => {
           <div className="row" id='userSection'>
             <div className="col-md-12">
               <div className="input-groupType-mb-3">
+                <Link to ="/job-seekers-signup">
                 <button type='button' className='btn btn-link' id='option'>Job seeker get started</button>
+                </Link>
               </div>
             </div>
           </div>
@@ -62,7 +58,7 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <h3>Career_Facet help people get Jobs</h3>
+          <h3 className='home'>Career_Facet help people get Jobs</h3>
         </div>
 
        <hr/>

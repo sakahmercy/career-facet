@@ -1,21 +1,15 @@
-<<<<<<< Updated upstream
-import React from 'react';
-
-const Reviews = () => {
-    return ( null );
-}
- 
-=======
-import React from "react";
+ import React from "react";
 import Navbar from "../NavBar/NavBar";
 import ReviewsCard from "../card/ReviewsCard";
 import "./reviews.css";
+
 
 const Reviews = () => {
   return (
     <div className="reviews-container">
       <Navbar />
       <hr />
+
       <div className="headingcontainer">
         <div className="row">
           <div className="col-12 text-center">
@@ -58,7 +52,6 @@ const Reviews = () => {
     </div>
   );
 };
->>>>>>> Stashed changes
 
 
 export default Reviews;
