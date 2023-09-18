@@ -2,9 +2,9 @@ import React from "react";
 import {NavLink, Link} from 'react-router-dom'
 import {FaBell} from "react-icons/fa"
 import { FaComment } from "react-icons/fa";
-import { FaUser } from "react-icons/fa";
 import Logo from "../../assets/career_facet_logo.png"
 import "../NavBar/navBar.css"
+import DropDownItem from "./ProfileSettingsDropdown";
 
 
 
@@ -18,7 +18,7 @@ const Navbar = () => {
           </Link>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-                <NavLink className="nav-link active" aria-current="page" to="#">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   Home
                 </NavLink>
                 <NavLink className="nav-link" to="/jobs">
@@ -34,15 +34,16 @@ const Navbar = () => {
           </div>
           <div className="navbar"> 
             <ul className="navbar-nav justify-content-end">
-                <NavLink className="nav-link active" aria-current="page" to="#">
-                <FaUser/>
-                </NavLink>
+                <DropDownItem/>
                 <NavLink className="nav-link" to="/jobs">
                   <FaBell/>
                 </NavLink>
                 <div className="btn-group">
                 <NavLink className="nav-link" to="#">
                 <FaComment/>
+                </NavLink>
+                <NavLink className="nav-link" to="Create-account">
+                Sign Up
                 </NavLink>
                 </div>
                 <li className="nav-item">

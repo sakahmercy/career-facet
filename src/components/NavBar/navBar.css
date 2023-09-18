@@ -1,13 +1,7 @@
-
-  /* body {
-    background-image: url(../components/assets/imagee.jpg);
-  } */
- 
-.logo2 {
+.nav_bar_logo {
     width: 200px;
   }
-
-
+  
   #jobseeker {
     display:block;
   }
@@ -16,10 +10,73 @@
     height: 50px;
   }
   .nav-link {
-    color: black;
+    color: rgb(9, 10, 10);
+    
   }
   .nav-separator {
     width: 1px;
-    height: 30px; /* Adjust the height as needed */
+    height: 30px; 
     background-color: #6b5555;
+  }
+
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #dbecfc;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background:none;
+    border: none;
+    padding: 0;
+    display: flex;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+
+  .custom-icon {
+    padding-top: 1%;
+    padding-bottom: 1px;
+    color: rgb(19, 17, 17);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebf8f7;
+    min-width: 280px;
+    box-shadow: 0px 0px 0px 0px rgba(241, 244, 245, 0.952);
+    
+  }
+  
+  .dropdown-content a {
+    color: rgb(8, 8, 8);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #d0f3f3;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropbtn:focus {
+    outline: none;
   }
