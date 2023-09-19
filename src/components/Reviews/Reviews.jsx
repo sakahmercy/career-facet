@@ -1,6 +1,8 @@
  import React from "react";
 import Navbar from "../NavBar/NavBar";
 import ReviewsCard from "../card/ReviewsCard";
+import SecondReviewsCard from "../card/SecondReviewsCard";
+import Footer from "../Footer/Footer";
 import "./reviews.css";
 
 
@@ -49,9 +51,32 @@ const Reviews = () => {
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="row">
+              <div className="col-12">
+                <SecondReviewsCard />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="row">
+              <div className="col-12">
+                <Footer />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
+
 
 
 export default Reviews;

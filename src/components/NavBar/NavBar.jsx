@@ -19,9 +19,9 @@ const MyNavbar = () => {
           <NavLink className="nav-link" to="/jobs">
             Jobs
           </NavLink>
-          <NavLink className="nav-link" to="/reviews">
+          <Nav.Link href="/reviews" >
             Company reviews
-          </NavLink>
+          </Nav.Link>
           <NavLink className="nav-link" to="/salaries">
             Find Salaries
           </NavLink>

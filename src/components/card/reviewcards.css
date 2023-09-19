@@ -25,3 +25,25 @@
     margin-top: 0px;
     color: rgb(8, 8, 8);
   }
+
+  #CompanyLogo {
+    width: 50px;
+    text-align: center;
+  }
+  #secondcard {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 200px;
+    padding-left: 1%;
+    border: none;
+  }
+  #secondcard-btn {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .secondcardContainer{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-left: 10px;
+  }
