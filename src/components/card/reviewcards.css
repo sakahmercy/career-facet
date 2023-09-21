@@ -1,5 +1,6 @@
 
 .cardContainer {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,7 +15,7 @@
     border-radius: 10px;
     padding: 10px;
     text-align: center;
-    background-color: none;
+    background-color: rgba(245, 246, 250, 0.555);
   }
   
   .card-text {
@@ -24,6 +25,9 @@
   .btn {
     margin-top: 0px;
     color: rgb(8, 8, 8);
+  }
+  .reviewsheadings {
+    color: antiquewhite;
   }
 
   #CompanyLogo {
@@ -46,4 +50,24 @@
     padding-bottom: 1px;
     margin-top: 1px;
     margin-left: 10px;
+  }
+
+  .CompanyLogo2 {
+    width: 80px;
+    padding-left: 30px;
+  }
+  #thirdcardbody {
+    padding-top: 1px;
+    border: 3px;
+  }
+  #thirdcard {
+    margin: 1px;
+    padding-left: 90px;
+    width: 1000px;
+    height: 80px;
+    font-size: small;
+    background-color: rgba(250, 252, 251, 0.829);
+  }
+  #cardlinks {
+    background-color: rgba(196, 214, 231, 0.664);
   }

@@ -1,8 +1,9 @@
  import React from "react";
 import Navbar from "../NavBar/NavBar";
 import ReviewsCard from "../card/ReviewsCard";
-import SecondReviewsCard from "../card/SecondReviewsCard";
 import Footer from "../Footer/Footer";
+import ThirdReviewsCard from "../card/ThirdReveiwsCard";
+import ReviewsParentCard from "../ReviewsPropertyCard/ParentProperty";
 import "./reviews.css";
 
 
@@ -56,7 +57,18 @@ const Reviews = () => {
           <div className="col-12">
             <div className="row">
               <div className="col-12">
-                <SecondReviewsCard />
+                <ReviewsParentCard/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="row justify-content-center">
+              <div className="col-12">
+                <ThirdReviewsCard />
               </div>
             </div>
           </div>

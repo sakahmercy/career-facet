@@ -4,6 +4,7 @@ import { FaGoogle } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import "./footer.css";
 
+
 const Footer = () => {
   return (
     <footer className="footer">

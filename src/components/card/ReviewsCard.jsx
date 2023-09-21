@@ -6,12 +6,13 @@ import {
   FaTools,
   FaCompass,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./reviewcards.css";
 
 const ReviewsCard = () => {
   return (
     <div className="cardContainer">
-      <h1>Browse companies by industries</h1>
+      <h1 className="reviewsheadings">Browse companies by industries</h1>
       <div className="row">
         <div className="col-sm-4">
           <div className="card">
@@ -19,9 +20,9 @@ const ReviewsCard = () => {
               <p className="card-text">
                 <FaGraduationCap />
               </p>
-              <a href="#" className="btn btn-light">
+              <Link to="#" className="btn btn-light">
                 Education
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -31,35 +32,35 @@ const ReviewsCard = () => {
               <p className="card-text">
                 <FaTree />
               </p>
-              <a href="#" className="btn btn-light">
+              <Link to="#" className="btn btn-light">
                 Agriculture
-              </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="col-sm-4">
-          <div className="card">
+          <div className="card" >
             <div className="card-body">
               <p className="card-text">
                 <FaPlane />
               </p>
-              <a href="#" className="btn btn-light">
+              <Link to="#" className="btn btn-light">
                 Aerospace & Defense
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </div>
       <div className="row">
         <div className="col-sm-4">
-          <div className="card">
+          <div className="card" >
             <div className="card-body">
               <p className="card-text">
                 <FaCompass />
               </p>
-              <a href="#" className="btn btn-light">
+              <Link to="#" className="btn btn-light">
                 Arts, Entertainment & Recreation
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -69,9 +70,9 @@ const ReviewsCard = () => {
               <p className="card-text">
                 <FaTools />
               </p>
-              <a href="#" className="btn btn-light">
+              <Link to="#" className="btn btn-light">
                 Construction, Repair & Maintenance
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -81,86 +82,86 @@ const ReviewsCard = () => {
               <p className="card-text">
                 <FaTools />
               </p>
-              <a href="#" className="btn btn-light">
+              <Link to="#" className="btn btn-light" >
                 Energy, mining & Utilities
-              </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Human Resources & Staffing
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
            Insurance
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Management & Consultation
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Manufacturing
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Media and Communication
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Telecommunication
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
            Retail & wholesale
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Transport & logistics
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Restaurants & Food services
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Real Estate
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Personal Consumer services
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
            Management and consultation
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Information & Technology
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Healthcare
-          </a>
+          </Link>
         </div>
         <div className="col-sm-4">
-          <a href="#" className="btn btn-light">
+          <Link to="#" className="btn btn-light" id="cardlinks">
             Governance & public administration
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,8 +1,9 @@
 import { Nav, Navbar, NavLink } from "react-bootstrap";
 import { FaBell, FaComment } from "react-icons/fa";
 import Logo from "../../assets/career_facet_logo.png";
-import "../NavBar/navBar.css";
 import DropDownItem from "./ProfileSettingsDropdown";
+import "../NavBar/navBar.css";
+
 
 const MyNavbar = () => {
   return (
@@ -13,9 +14,9 @@ const MyNavbar = () => {
       <Navbar.Toggle aria-controls="navbarNav" className="navbar-toggler" />
       <Navbar.Collapse id="navbarNav">
         <Nav className="mr-auto">
-          <NavLink className="nav-link" to="/" exact>
+          <Nav.Link  href="/" exact>
             Home
-          </NavLink>
+          </Nav.Link>
           <NavLink className="nav-link" to="/jobs">
             Jobs
           </NavLink>

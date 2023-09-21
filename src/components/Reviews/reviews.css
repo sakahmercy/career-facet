@@ -9,6 +9,15 @@
   .headingcontainer {
     margin-top: 10px;
     margin-left: 1px;
+    color: antiquewhite;
+  }
+  .reviews-container {
+    background-image: url("../../assets/background_image.jpg");
+    background-size: cover;
+    position:flex;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
   }
 
  
