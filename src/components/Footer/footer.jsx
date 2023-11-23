@@ -4,13 +4,14 @@ import { FaGoogle } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import "./footer.css";
 
+
 const Footer = () => {
   return (
     <footer className="footer">
       <hr />
       <div className="container mt-5">
         <div className="row">
-          <div className="col-sm-3">
+          <div className="col-sm-2">
             <h3>General</h3>
             <NavLink className="nav-link" to="">
               <p>Sign Up</p>
@@ -28,7 +29,7 @@ const Footer = () => {
               <p>Developers</p>
             </NavLink>
           </div>
-          <div className="col-sm-3">
+          <div className="col-sm-2">
             <h3>Brouse Career-Facet</h3>
             <NavLink className="nav-link" to="">
               <p>Jobs</p>
@@ -43,7 +44,7 @@ const Footer = () => {
               <p>Services</p>
             </NavLink>
           </div>
-          <div className="col-sm-3">
+          <div className="col-sm-2">
             <h3>Business solutions</h3>
             <NavLink className="nav-link" to="">
               <p>Talent</p>
@@ -58,7 +59,7 @@ const Footer = () => {
               <FaGooglePlay />
             </NavLink>
           </div>
-          <div className="col sm-3">
+          <div className="col-sm-2">
             <h3>Directories</h3>
             <NavLink className="nav-link" to="">
               <p>Posts</p>
@@ -70,7 +71,7 @@ const Footer = () => {
               <p>People search</p>
             </NavLink>
           </div>
-          <div className="col sm-3">
+          <div className="col-sm-2">
             <h3>Apps</h3>
             <NavLink className="nav-link" to="">
               <p>©2023 Career-Facet</p>
@@ -86,6 +87,7 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
+
 
 export default Footer;

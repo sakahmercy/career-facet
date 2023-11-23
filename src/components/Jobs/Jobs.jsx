@@ -1,8 +1,13 @@
 import React from 'react';
+import { Navbar } from 'react-bootstrap';
 
 
 const Jobs = () => {
-    return (null  );
+    return (
+        <div>
+            <Navbar/>
+        </div>
+      );
 }
  
 

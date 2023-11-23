@@ -1,12 +1,23 @@
-/* .form-control {
-    margin-top: 70px;
+ .btn {
+    margin-top: 0px;
+    color: black;
   }
-  .reviewh1, h3{
-    margin-left: 30px;
+  .searchcontainer {
+    margin-top: 80px;
+    
   }
-
-  .btn {
-    margin-top: 70px;
-  } */
+  .headingcontainer {
+    margin-top: 10px;
+    margin-left: 1px;
+    color: antiquewhite;
+  }
+  .reviews-container {
+    background-image: url("../../assets/background_image.jpg");
+    background-size: cover;
+    position:flex;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+  }
 
  

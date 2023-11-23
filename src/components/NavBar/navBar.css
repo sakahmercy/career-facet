@@ -17,6 +17,7 @@
     width: 1px;
     height: 30px; 
     background-color: #6b5555;
+
   }
 
   .dropbtn {
@@ -79,4 +80,23 @@
 
   .dropbtn:focus {
     outline: none;
+
   }
+
+  
+.navbar-toggler {
+  border: none; 
+  background-color: transparent; 
+  outline: none; 
+  padding: 0; 
+  margin-right: 10px; 
+}
+
+
+.navbar-collapse.show {
+  background-color: #f2f5f8; 
+  border-radius: 10px; 
+  padding: 10px; 
+  padding-left: 80%;
+}
+  

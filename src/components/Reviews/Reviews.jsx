@@ -1,26 +1,31 @@
-import React from "react";
+ import React from "react";
 import Navbar from "../NavBar/NavBar";
-import { Link } from "react-router-dom";
+import ReviewsCard from "../card/ReviewsCard";
+import Footer from "../Footer/Footer";
+import ThirdReviewsCard from "../card/ThirdReveiwsCard";
+import ReviewsParentCard from "../ReviewsPropertyCard/ParentProperty";
 import "./reviews.css";
+
 
 const Reviews = () => {
   return (
     <div className="reviews-container">
       <Navbar />
       <hr />
-      <div className="container">
+
+      <div className="headingcontainer">
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 text-center">
             <h1 className="reviewh1">Find great places to work</h1>
             <h3>Get access to millions of company reviews</h3>
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="searchcontainer">
         <div className="row">
-          <div className="d-flex justify-content-center align-items-center min-vh-10">
-            <div className="ml-5 mr-5 col-12">
-              <div className="input-group mb-3">
+          <div className="col-12 d-flex justify-content-center align-items-center">
+            <div className="col-8">
+              <div className="input-group mb-6">
                 <input
                   type="text"
                   className="form-control"
@@ -36,8 +41,54 @@ const Reviews = () => {
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="row">
+              <div className="col-12">
+                <ReviewsCard />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="row">
+              <div className="col-12">
+                <ReviewsParentCard/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="row justify-content-center">
+              <div className="col-12">
+                <ThirdReviewsCard />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="row">
+              <div className="col-12">
+                <Footer />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
+
+
 
 export default Reviews;
