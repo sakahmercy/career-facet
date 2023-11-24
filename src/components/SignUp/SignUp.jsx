@@ -21,7 +21,7 @@ const SignUp = () => {
   
     const newErrors = {};
   
-    // Validate form
+    
     if (username.trim() === '') {
       newErrors.username = 'Username is required';
     }
