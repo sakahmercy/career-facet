@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/career_facet_logo.png";
 import { Link } from "react-router-dom";
-import "../JobSeekersPage/form.css"
+import "../JobSeekersPage/jobseekerspage.css"
 
 
 const JobSeekersForm = () => {
@@ -74,7 +74,7 @@ const JobSeekersForm = () => {
                 placeholder="Enter location"
               />
             </div>
-          <Link to = '/'>
+          <Link to = '/jobseekershomepage'>
           <button type="submit" className="btn btn-primary">
             Create account
           </button>

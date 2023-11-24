@@ -23,7 +23,7 @@ const MyNavbar = () => {
           <Nav.Link href="/reviews" >
             Company reviews
           </Nav.Link>
-          <NavLink className="nav-link" to="/salaries">
+          <NavLink href="/salaries">
             Find Salaries
           </NavLink>
         </Nav>

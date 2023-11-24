@@ -7,7 +7,7 @@ import CompanyLogo from "../../assets/company_logo.png";
 const SecondReviewsCard = () => {
   return (
     <div className="secondcardContainer">
-      <h1>Popular Companies</h1>
+      <h1>Popular Informal Job Sectors</h1>
       <div className="row">
         <div className="col-sm-3">
           <div className="card" id="secondcard">

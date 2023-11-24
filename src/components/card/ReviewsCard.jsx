@@ -12,7 +12,7 @@ import "./reviewcards.css";
 const ReviewsCard = () => {
   return (
     <div className="cardContainer">
-      <h1 className="reviewsheadings">Browse companies by industries</h1>
+      <h1 className="reviewsheadings">Browse informal job sectors</h1>
       <div className="row">
         <div className="col-sm-4">
           <div className="card">
@@ -45,7 +45,7 @@ const ReviewsCard = () => {
                 <FaPlane />
               </p>
               <Link to="#" className="btn btn-light">
-                Aerospace & Defense
+              Domestic Workers
               </Link>
             </div>
           </div>
@@ -59,7 +59,7 @@ const ReviewsCard = () => {
                 <FaCompass />
               </p>
               <Link to="#" className="btn btn-light">
-                Arts, Entertainment & Recreation
+              Day Laborers
               </Link>
             </div>
           </div>
@@ -71,7 +71,7 @@ const ReviewsCard = () => {
                 <FaTools />
               </p>
               <Link to="#" className="btn btn-light">
-                Construction, Repair & Maintenance
+              Hairdressers/Barbers
               </Link>
             </div>
           </div>
@@ -83,49 +83,49 @@ const ReviewsCard = () => {
                 <FaTools />
               </p>
               <Link to="#" className="btn btn-light" >
-                Energy, mining & Utilities
+              Motorcycle or Bicycle Taxi Drivers
               </Link>
             </div>
           </div>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Human Resources & Staffing
+          Artisans/Craftspeople
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-           Insurance
+          Tailors/Seamstresses
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Management & Consultation
+          Street Food Vendors
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Manufacturing
+          Construction Workers
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Media and Communication
+          Personal Drivers
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Telecommunication
+          Personal Assistants
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-           Retail & wholesale
+          Event Organizers/Planners
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Transport & logistics
+          House Cleaners
           </Link>
         </div>
         <div className="col-sm-4">
@@ -135,32 +135,32 @@ const ReviewsCard = () => {
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Real Estate
+          Language Tutors
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Personal Consumer services
+          Freelance Photographers
+          </Link>
+        </div>
+        <div className="col-sm-4">
+          <Link to="#" className="btn btn-light" id="cardlinks">    
+          Home-based Beauty Services
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-           Management and consultation
+          Informal Retailers
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Information & Technology
+          Mobile Phone Repair Technicians
           </Link>
         </div>
         <div className="col-sm-4">
           <Link to="#" className="btn btn-light" id="cardlinks">
-            Healthcare
-          </Link>
-        </div>
-        <div className="col-sm-4">
-          <Link to="#" className="btn btn-light" id="cardlinks">
-            Governance & public administration
+          Freelance Graphic Designers
           </Link>
         </div>
       </div>
