@@ -3,6 +3,7 @@ import logo from "../../assets/career_facet_logo.png";
 import { Link } from "react-router-dom";
 import "./signup.css";
 
+//declare a state variables for each field and their corresponding errors
 const SignUp = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
