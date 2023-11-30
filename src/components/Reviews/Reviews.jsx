@@ -17,7 +17,7 @@ const Reviews = () => {
         <div className="row">
           <div className="col-12 text-center">
             <h1 className="reviewh1">Find great places to work</h1>
-            <h3>Get access to millions of company reviews</h3>
+            <h3>Get access to millions of informal job sector reviews</h3>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ const Reviews = () => {
                 />
                 <div className="input-group-append">
                   <button className="btn btn-primary" type="button">
-                    Find companies
+                    Find sectors
                   </button>
                 </div>
               </div>

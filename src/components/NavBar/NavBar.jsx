@@ -2,7 +2,6 @@ import { Nav, Navbar, NavLink } from "react-bootstrap";
 import { FaBell, FaComment } from "react-icons/fa";
 import Logo from "../../assets/career_facet_logo.png";
 import DropDownItem from "./ProfileSettingsDropdown";
-import "../NavBar/navBar.css";
 
 
 const MyNavbar = () => {
@@ -23,7 +22,7 @@ const MyNavbar = () => {
           <Nav.Link href="/reviews" >
             Company reviews
           </Nav.Link>
-          <NavLink className="nav-link" to="/salaries">
+          <NavLink href="/salaries">
             Find Salaries
           </NavLink>
         </Nav>
