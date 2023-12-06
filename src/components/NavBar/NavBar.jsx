@@ -2,6 +2,7 @@ import { Nav, Navbar, NavLink } from "react-bootstrap";
 import { FaBell, FaComment } from "react-icons/fa";
 import Logo from "../../assets/career_facet_logo.png";
 import DropDownItem from "./ProfileSettingsDropdown";
+import "./navBar.css"
 
 
 const MyNavbar = () => {
