@@ -1,7 +1,7 @@
 .sign-up-bg {
   background-image: url("../../assets/signUp_background_iamge.webp");
   background-size: cover;
-  position:fixed;
+  position:flex;
   min-height: 100%;
   min-width: 100%;
   background-position: center;

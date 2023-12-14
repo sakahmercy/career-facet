@@ -5,6 +5,8 @@ import JobSeekersLogin from "./components/LoginPage/Login";
 import CreateAccount from "./components/SignUp/SignUp";
 import HomePage from "./components/Home/HomePage";
 import Reviews from "./components/Reviews/Reviews";
+import Salaries from './components/Salaries/Salaries';
+import JobSeekersHomePage from './components/JobSeekersPage/JobSeekersHomePage';
 import "./App.css";
 
 

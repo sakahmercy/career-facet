@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./signup.css";
 
 //declare a state variables for each field and their corresponding errors
+//create a functional component called sign up initialize form state using usestate hook
 const SignUp = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -16,6 +17,7 @@ const SignUp = () => {
     password: '',
     phoneNumber: '',
   });
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
